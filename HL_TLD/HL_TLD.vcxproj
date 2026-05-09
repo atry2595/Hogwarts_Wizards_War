@@ -102,6 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -123,25 +124,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="color.cpp" />
-    <ClCompile Include="display_game.cpp" />
-    <ClCompile Include="HL_TLD.cpp" />
-    <ClCompile Include="HouseWizards.cpp" />
-    <ClCompile Include="logic.cpp" />
-    <ClCompile Include="selection.cpp" />
-    <ClCompile Include="Spell.cpp" />
-    <ClCompile Include="sysFunc.cpp" />
-    <ClCompile Include="Wizard.cpp" />
+    <ClCompile Include="Source files\color.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Source files\display_game.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Source files\main.cpp" />
+    <ClCompile Include="Source files\HouseWizards.cpp" />
+    <ClCompile Include="Source files\logic.cpp" />
+    <ClCompile Include="Source files\selection.cpp" />
+    <ClCompile Include="Source files\Spell.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="Source files\sysFunc.cpp" />
+    <ClCompile Include="Source files\Wizard.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="color.h" />
-    <ClInclude Include="display_game.h" />
-    <ClInclude Include="HouseWizards.h" />
-    <ClInclude Include="logic.h" />
-    <ClInclude Include="selection.h" />
-    <ClInclude Include="Spell.h" />
-    <ClInclude Include="sysFunc.h" />
-    <ClInclude Include="Wizard.h" />
+    <ClInclude Include="include\color.h" />
+    <ClInclude Include="include\display_game.h" />
+    <ClInclude Include="include\HouseWizards.h" />
+    <ClInclude Include="include\logic.h" />
+    <ClInclude Include="include\selection.h" />
+    <ClInclude Include="include\Spell.h" />
+    <ClInclude Include="include\sysFunc.h" />
+    <ClInclude Include="include\Wizard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

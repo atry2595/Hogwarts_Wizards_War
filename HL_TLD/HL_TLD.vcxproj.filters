@@ -15,57 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HL_TLD.cpp">
+    <ClCompile Include="Source files\color.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Wizard.cpp">
+    <ClCompile Include="Source files\display_game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spell.cpp">
+    <ClCompile Include="Source files\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HouseWizards.cpp">
+    <ClCompile Include="Source files\HouseWizards.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="color.cpp">
+    <ClCompile Include="Source files\logic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="selection.cpp">
+    <ClCompile Include="Source files\selection.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="logic.cpp">
+    <ClCompile Include="Source files\Spell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="display_game.cpp">
+    <ClCompile Include="Source files\sysFunc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="sysFunc.cpp">
+    <ClCompile Include="Source files\Wizard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Wizard.h">
+    <ClInclude Include="include\color.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Spell.h">
+    <ClInclude Include="include\display_game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HouseWizards.h">
+    <ClInclude Include="include\HouseWizards.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="color.h">
+    <ClInclude Include="include\logic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="selection.h">
+    <ClInclude Include="include\selection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="logic.h">
+    <ClInclude Include="include\Spell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="display_game.h">
+    <ClInclude Include="include\sysFunc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="sysFunc.h">
+    <ClInclude Include="include\Wizard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
