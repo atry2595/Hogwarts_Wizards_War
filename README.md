@@ -63,7 +63,7 @@ This project simulates 1v1 and group battles between wizards. Each wizard is an 
 ```text
 HL_TLD/
 ├── include/ # Header files (.h)
-└── src/ # Source files (.cpp)
+└── Source filse/ # Source files (.cpp)
 ```
 
 
